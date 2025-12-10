@@ -15,6 +15,7 @@
     justify-content: space-between;
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
     background-color:aqua;
+  
 
     position: fixed;      /* stays at top */
     top: 0;
@@ -23,16 +24,9 @@
 }
 
 /* Add space below the navbar for page content */
-body {
-    padding-top: 80px;    /* adjust if navbar is taller */
-}
 
-/* Logo */
-.logo {
-    font-size: 24px;
-    font-weight: bold;
-    color: #333;
-}
+
+
 
 /* Navbar links */
 
@@ -46,12 +40,12 @@ body {
 .navbar a {
     text-decoration: none;
     color: #333;
-    font-size: 20px;
+    font-size: 12px;
     transition: 0.3s;
 }
 
 .navbar a:hover {
-    color: #007bff;
+    color: #ff00ea;
 }
 
 /* Menu button (hamburger) */

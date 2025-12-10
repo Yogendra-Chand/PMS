@@ -18,6 +18,9 @@ setProducts(response.data)
   return (
     <>
     <Navbar/>
+    <div className="card-container">
+
+  
  
  {
   products.map((product)=>{
@@ -36,6 +39,7 @@ setProducts(response.data)
     )
   })
  }
+   </div>
     </>
   )
 }

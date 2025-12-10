@@ -7,7 +7,10 @@
     height: auto;
  
 }
-
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+}
         .card {
             width: 300px;
            
@@ -16,7 +19,8 @@
             overflow: hidden;
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
             transition: transform 0.2s;
-            
+            margin-bottom: 20px;
+            margin-top: 27px;
         }
 
         .card:hover {
