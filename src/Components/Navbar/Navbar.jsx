@@ -9,6 +9,6 @@ function Navbar() {
             <a href="#">Contact</a>
         </div>
   )
-}
+} 
 
 export default Navbar
